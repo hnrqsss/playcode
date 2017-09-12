@@ -11,7 +11,6 @@
 body{
     font-family: 'Open Sans', 'sans-serif';
     background: #e6e6e6;
-    border-radius: 8px;
 }
 
 .container{
@@ -21,8 +20,14 @@ body{
 .container .card{
     margin-top: 11px;
     background: #fff;
+    border-radius: 3px;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.2);
+
 }
 
+.container .card .image-card img{
+    width: 100%;
+}
 .container .card h4{
     text-transform: uppercase;
     font-size: 15px;
@@ -34,8 +39,15 @@ body{
 .container .card .content-card{
     padding: 9px 8px 30px 10px;
 }
-.container .card .content-card a{
+.container .card .content-card .title{
+    margin-top: 10px;
+}
+.container .card .content-card .title a{
     text-decoration: none;
     color: #b5000d;
     font-size:16px;
+}
+.container .card .content-card p{
+    color: #333;
+    margin-top: 10px;
 }
