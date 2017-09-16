@@ -20,13 +20,14 @@ body{
 .container .card{
     margin-top: 11px;
     background: #fff;
-    border-radius: 3px;
+    border-radius: 0 0 3px 3px;
     box-shadow: 1px 1px 10px rgba(0,0,0,0.2);
 
 }
 
 .container .card .image-card img{
     width: 100%;
+    border-radius: 3px 3px 0 0;
 }
 .container .card h4{
     text-transform: uppercase;
@@ -35,6 +36,7 @@ body{
 .container .card h4 span{
     color: #999999;
     font-size: 12px;
+    padding-left: 8px;
 }
 .container .card .content-card{
     padding: 9px 8px 30px 10px;
