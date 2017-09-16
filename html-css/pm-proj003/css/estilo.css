@@ -36,7 +36,8 @@ body{
     border: 0;
     border-bottom: 1px solid #fff;
     background: transparent;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
+    color: #fff;
 }
 
 .container .login form button{
